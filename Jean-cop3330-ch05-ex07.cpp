@@ -1,4 +1,4 @@
-// Chapter 05, exercise 07: solve quadratic equations
+
  //*  UCF COP3330 Fall 2021 Assignment 5 Solution
  //*  Copyright 2021 Christopher Jean
 
@@ -7,9 +7,7 @@
 double a,b,c;
 bool do_check;
 
-// checks if x is close to the solution
-// warns if solution is poor
-// if do_check is false, simply returns x
+
 double found(double x)
 {
     if (!do_check)
@@ -26,7 +24,7 @@ double found(double x)
     }
 }
 
-// solves quadratic equation
+
 void quad_solver()
 {
     while (cin>>a>>b>>c){
